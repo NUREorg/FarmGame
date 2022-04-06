@@ -1,0 +1,77 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlotManager : MonoBehaviour
+{
+
+    bool isPlanted;
+    SpriteRenderer plant;
+    BoxCollider2D plantCollider;
+
+    int plantStage;
+    float timer;
+
+    public Color availableColor;
+    public Color unavailableColor;
+
+    SpriteRenderer plot;
+
+
+    PlantObject selectedPlant;
+
+    FarmManager fm;
+
+    bool isDry;
+    public Sprite drySprite;
+    public Sprite normalSprite;
+    public Sprite unavailableSprite;
+
+    float speed;
+    public bool isBought;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+       
+    }
+
+    private void OnMouseDown()
+    {
+       
+    }
+
+    private void OnMouseOver()
+    {
+        
+    }
+
+    private void OnMouseExit()
+    {
+        
+    }
+
+
+    void Harvest()
+    {
+       
+    }
+
+    void Plant(PlantObject newPlant)
+    {
+       
+    }
+
+    void UpdatePlant()
+    {
+       
+    }
+
+}
