@@ -1,0 +1,47 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class FarmManager : MonoBehaviour
+{
+    public PlantItem selectPlant;
+    public bool isPlanting;
+    public int money;
+    public Text moneyTxt;
+
+    public Color buyColor;
+    public Color cancelColor;
+
+    public bool isSelecting;
+    public int selectedTool;
+
+    public Image[] buttonsImg;
+    public Sprite normalButton;
+    public Sprite selectedButton;
+
+    void Start()
+    {
+        
+    }
+
+    public void SelectPlant(PlantItem newPlant)
+    {
+       
+    }
+
+    public void SelectTool(int toolNumber)
+    {
+       
+    }
+
+    void CheckSelection()
+    {
+        
+    }
+
+    public void Transaction(int value)
+    {
+       
+    }
+}
